@@ -25,3 +25,6 @@ export let commonLogin = (username,password) => http.post("/users/login",{
 export let verifyCode = (code) => http.post("/users/login?type=sms",{
     code
 })
+
+// 获取登陆日志
+export let getLoginDate = ()=>http.get("/getloginlog")

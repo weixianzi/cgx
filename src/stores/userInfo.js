@@ -5,7 +5,13 @@ const useUserInfoStore = defineStore('userInfo',{
         return{
             userInfo:{}
         }
-    }
+    },
+    persist:[
+        {
+            path:["userInfo"],
+            storage:sessionStorage
+        }
+    ]
 })
 
 export default useUserInfoStore

@@ -121,6 +121,7 @@ const submitForm = (formEl) => {
                 }
             }catch(e){
                 getQrCode()
+                loginForm.qrCode = ""
                 loading.close()
             }
     } else {

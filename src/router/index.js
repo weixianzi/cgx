@@ -4,10 +4,6 @@ let routes = [
   {
     path:"/login",
     component:()=>import(/* webpackChunkName:"login" */"@/pages/login/index.vue")
-  },
-  {
-    path:"/",
-    component:()=>import(/* wepackChunkName:"home" */"@/components/container/index.vue")
   }
 ]
 

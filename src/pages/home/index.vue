@@ -3,9 +3,10 @@
 </template>
 
 <script setup>
-import container from "@/compoents/container/index.vue"
+import container from "@/layout/container/index.vue"
+
 </script>
 
 <style scoped>
-
+    
 </style>
